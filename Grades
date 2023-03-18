@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Grades {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scnr = new Scanner(System.in);
+		int totalStudents = scnr.nextInt();
+		int gradeA = 0, gradeAminus = 0,gradeB = 0,gradeBminus =0,gradeC =0,gradeCminus=0,gradeD=0,gradeF = 0;
+		for(int i = 1;i<=totalStudents;i++) {
+			int studentGrade = scnr.nextInt();
+			if(studentGrade >=93 && studentGrade <=100) {
+				gradeA++;
+			}
+			else if(studentGrade >= 90 && studentGrade < 93) {
+				gradeAminus++;
+			}
+			else if(studentGrade >= 87 && studentGrade <90) {
+				gradeB++;
+			}
+			else if(studentGrade >=83 && studentGrade <87) {
+				gradeBminus++;
+			}
+			else if(studentGrade >=80 && studentGrade )
+		}
+	}
+
+}
